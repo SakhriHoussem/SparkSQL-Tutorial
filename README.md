@@ -121,7 +121,7 @@ val result = sqlContext.sql("SELECT distance FROM hikings where name='Montagne d
 ```scala
 H.select( $"distance",$"region").groupBy("region").sum().show()
 ```
-ou
+or
 ```scala
 H.registerTempTable("hikings")
 //
