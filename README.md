@@ -106,7 +106,7 @@ val result = sqlContext.sql("SELECT * FROM exits")
 
 #### Show the distance of the hike from "Murjadju Mountain" :
 ```scala
-H.filter($"nomRando" === "Montagne de Murdjadju").select( $"distance").show
+H.filter($"name" === "Montagne de Murdjadju").select( $"distance").show
 ```	
 or
 ```scala
