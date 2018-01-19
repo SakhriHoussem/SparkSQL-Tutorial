@@ -1,6 +1,6 @@
 # Spark SQL in Practice
 
-##
+## Learn How SparkSQL Work in Simple Examples
 
 ### Buid a DataFrames :
 
@@ -49,7 +49,7 @@ val H = sqlContext.read.json("file:<folder path>/input/hikings.json")
 
 show stats DataFrames content
 
-```
+```scala
 // show stats DataFrames content
 S.show()
 ```
@@ -62,7 +62,8 @@ val result = sqlContext.sql("SELECT * FROM state")
 ```
 
 show Hikings DataFrames content
-```
+
+```scala
 // show Hikings DataFrames content
 H.show()
 ```
@@ -76,7 +77,7 @@ val result = sqlContext.sql("SELECT * FROM hikings")
 
 show participants DataFrames content
 
-```
+```scala
 // show participants DataFrames content
 P.show()
 ```
@@ -90,7 +91,7 @@ val result = sqlContext.sql("SELECT * FROM participants")
 
 show exits DataFrames content
 
-```
+```scala
 // show exits DataFrames content
 E.show()
 ```
