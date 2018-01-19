@@ -31,12 +31,12 @@ val S = sc.textFile("file:<folder path>/input/state.txt").map(_.split(",")).map(
 
 ```scala
 // import data from participants to Dataframes :
-val P = sc.textFile("file:/home/cloudera/participants.txt").map(_.split(",")).map(p => participant(p(0).toInt,p(1),p(2),p(3).toInt)).toDF()
+val P = sc.textFile("file:<folder path>/input/participants.txt").map(_.split(",")).map(p => participant(p(0).toInt,p(1),p(2),p(3).toInt)).toDF()
 ```
 
 ```scala
 // import data from exits to Dataframes :
-val E= sc.textFile("file:/home/cloudera/exits.txt").map(_.split(",")).map(p => exits(p(0).toInt,p(1).toInt,p(2),p(3))).toDF()
+val E= sc.textFile("file:<folder path>/input/exits.txt").map(_.split(",")).map(p => exits(p(0).toInt,p(1).toInt,p(2),p(3))).toDF()
 ```
 
 #### Buid a DataFrames from Json file :
