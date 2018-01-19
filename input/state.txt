@@ -1,0 +1,5 @@
+Bejaia,Algerie,06
+Blida,Algerie,09
+TiziOuzou,Algerie,15
+Alger,Algerie,16
+Oran,Algerie,31

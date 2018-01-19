@@ -1,0 +1,10 @@
+1,Idir,Bejaia,18
+2,Mohamedi,Oran,22
+3,Naceri,Oran,34
+4,Benfeghoul,Alger,45
+5,Brahimi,Annaba,59
+6,Settouti,Tlemcen,66
+7,Ben Ahmed,Alger,54
+8,Ghali,Alger,38
+9,Ghazali,Tizi Ouzou,29
+10,Rbia,Tizi Ouzou,21
