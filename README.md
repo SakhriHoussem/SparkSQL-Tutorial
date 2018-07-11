@@ -1,4 +1,4 @@
-# Spark SQL in Practice
+# SparkSQL Tutorial
 
 ## Learn How SparkSQL Work in Simple Examples
 
